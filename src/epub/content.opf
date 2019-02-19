@@ -65,13 +65,13 @@
 		<dc:contributor id="transcriber-1">Sjaani</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Sjaani</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-1">PG Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">PG Distributed Proofreaders</meta>
+		<dc:contributor id="transcriber-1">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-1">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Mitchell Jacobs</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Jacobs, Mitchell</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://mitchellbjacobs.com/</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://mitchellbjacobs.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
