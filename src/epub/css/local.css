@@ -7,29 +7,25 @@ span[epub|type~="subtitle"]{
 }
 
 [epub|type~="z3998:verse"] p{
-text-align: left;
-text-indent: 0;
+	text-align: left;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p > span{
-display: block;
-text-indent: -1em;
-padding-left: 1em;
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br{
-display: none;
-}
-
-[epub|type~="z3998:verse"] p + p{
-margin-top: 1em;
+	display: none;
 }
 
 [epub|type~="z3998:verse"] + p{
-text-indent: 0;
+	text-indent: 0;
 }
 
 p span.i1{
-text-indent: -1em;
-padding-left: 2em;
+	text-indent: -1em;
+	padding-left: 2em;
 }
