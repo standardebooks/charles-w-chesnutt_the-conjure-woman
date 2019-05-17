@@ -26,24 +26,24 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Conjure Woman</dc:title>
 		<meta property="file-as" refines="#title">Conjure Woman, The</meta>
 		<dc:subject id="subject-1">African Americans -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Southern States -- Social life and customs -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/11666</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/11666</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2007100196</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008111599</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">Former slave Julius tells fantastical tales about plantation life to the incredulous Northerners who have just moved in.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Conjure Woman&lt;/i&gt; is a collection of fantastical stories narrated by Julius, a former slave, about life on the nearby plantations prior to the Civil War. Each involves an element of magic, be it a vine that dooms those who eat from it or a man transformed into a tree to avoid being separated from his wife. Julius’s audience, a married couple who have just moved to the South to cultivate grapes, listen on with mixed sympathy and disbelief. They disagree on whether Julius is telling the truth and whether there is some deeper significance to the tales. At turns humorous and unsettling, these stories provide a surprising lens into the realities of slavery.&lt;/p&gt;
 			&lt;p&gt;The text is notable for spelling out Julius’s spoken accent. Although Julius has some stereotypical features of a simple-minded old slave, he is often regarded as a more clever and complicated figure. He seems to tell his tales not only to entertain his listeners, but to trick them to his advantage.&lt;/p&gt;
 			&lt;p&gt;Many of these stories first appeared in national magazines, where they received popular acclaim, before being assembled as their own volume in 1899. Charles W. Chesnutt’s race was not mentioned by the publisher, nor could many guess his African heritage based on his appearance. However, Chesnutt embraced his African-American identity and was a prominent activist for black rights. &lt;i&gt;The Conjure Woman&lt;/i&gt;, his first book, is considered an important early work of African-American fiction.&lt;/p&gt;
 			&lt;p&gt;This edition includes four additional Julius tales that appeared in magazines but were not collected during Chesnutt’s lifetime.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/11666</dc:source>
 		<dc:source>https://archive.org/details/conjurewoman00chesrich</dc:source>
