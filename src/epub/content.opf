@@ -36,6 +36,7 @@
 		<meta property="term" refines="#subject-2">sh2008111599</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">Former slave Julius tells fantastical tales about plantation life to the incredulous Northerners who have just moved in.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Conjure Woman&lt;/i&gt; is a collection of fantastical stories narrated by Julius, a former slave, about life on the nearby plantations prior to the Civil War. Each involves an element of magic, be it a vine that dooms those who eat from it or a man transformed into a tree to avoid being separated from his wife. Julius’s audience, a married couple who have just moved to the South to cultivate grapes, listen on with mixed sympathy and disbelief. They disagree on whether Julius is telling the truth and whether there is some deeper significance to the tales. At turns humorous and unsettling, these stories provide a surprising lens into the realities of slavery.&lt;/p&gt;
