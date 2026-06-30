@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-w-chesnutt/the-conjure-woman</dc:identifier>
 		<dc:date>2019-02-28T20:33:07Z</dc:date>
 		<meta property="dcterms:modified">2019-02-28T20:33:07Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,9 +36,9 @@
 		<meta property="term" refines="#subject-1">sh2007100196</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008111599</meta>
-		<meta property="se:subject">Fiction</meta>
-		<meta property="se:subject">Shorts</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Shorts</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<dc:description id="description">Former slave Julius tells fantastical tales about plantation life to the incredulous Northerners who have just moved in.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Conjure Woman&lt;/i&gt; is a collection of fantastical stories narrated by Julius, a former slave, about life on the nearby plantations prior to the Civil War. Each involves an element of magic, be it a vine that dooms those who eat from it or a man transformed into a tree to avoid being separated from his wife. Julius’s audience, a married couple who have just moved to the South to cultivate grapes, listen on with mixed sympathy and disbelief. They disagree on whether Julius is telling the truth and whether there is some deeper significance to the tales. At turns humorous and unsettling, these stories provide a surprising lens into the realities of slavery.&lt;/p&gt;
@@ -52,22 +53,23 @@
 		<dc:source>https://archive.org/details/atlantic64bostuoft</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/009990972</dc:source>
 		<dc:source>https://archive.org/details/selfculture00unkngoog</dc:source>
-		<meta property="se:production-notes">1. Julius’s abbreviated speech should use right-curled single quotation marks. Typogrify will try to make these left-curled if preceding a word, so those changes will need to be checked by hand. 2. Modernized hyphenation has been applied to the text, excluding Julius’s speech. An editorial decision was made not to change these hyphens, as they might represent an aspect of pronunciation. The words “hot-foot” and “club-foot” were not changed anywhere in the book, as the former is used as part of someone's name. The latter is spoken in conversation between John and Julius, and it would be odd if Julius hyphenated it but not John. 3. Regarding the Other Julius Tales section: there are seven stories commonly included with modern editions of The Conjure Woman. None were collected in a volume during Chesnutt's lifetime but most were published in magazines. Besides the four included currently, “A Deep Sleeper” has e-text at Gutenberg and Chesnutt Archive, but magazine page scans are not yet available online. “The Marked Tree” has e-text at Chesnutt Archive. It was published in 1925, so in 2021 it may be possible to include in this edition if magazine scans are released. “The Dumb Witness” seems not to have been published during Chesnutt's life in any form and e-text appears unavailable. Specific publication history for each story can be found at the Chesnutt Archive site. Hopefully as time passes and more scans go online, we will be able to include a total of six of the seven additional stories.</meta>
-		<meta property="se:word-count">56548</meta>
-		<meta property="se:reading-ease.flesch">71.89</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Conjure_Woman</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-w-chesnutt_the-conjure-woman</meta>
+		<meta property="schema:wordCount">56548</meta>
+		<meta property="schema:educationalLevel">71.89</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Conjure_Woman" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/charles-w-chesnutt_the-conjure-woman" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Charles W. Chesnutt</dc:creator>
 		<meta property="file-as" refines="#author">Chesnutt, Charles W.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Charles Waddell Chesnutt</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_W._Chesnutt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79138741</meta>
+		<meta property="schema:alternateName" refines="#author">Charles Waddell Chesnutt</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_W._Chesnutt" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79138741.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Jean-François Millet</dc:contributor>
 		<meta property="file-as" refines="#artist">Millet, Jean-François</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50033212</meta>
+		<link href="https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50033212.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
@@ -77,18 +79,18 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">John M. Freiermuth</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Freiermuth, John M.</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Stephanie P. Browner</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Browner, Stephanie P.</meta>
-		<meta property="se:url.homepage" refines="#transcriber-5">https://www.newschool.edu/lang/faculty/stephanie-browner</meta>
+		<link href="https://www.newschool.edu/lang/faculty/stephanie-browner" refines="#transcriber-5" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Mitchell Jacobs</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Jacobs, Mitchell</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://mitchellbjacobs.com/</meta>
+		<link href="http://mitchellbjacobs.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -97,7 +99,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
